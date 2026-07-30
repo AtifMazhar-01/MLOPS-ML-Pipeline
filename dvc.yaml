@@ -47,3 +47,10 @@ stages:
 # plots:
 # - dvclive/plots/metrics:
 #     x: step
+params:
+- dvclive/params.yaml
+metrics:
+- dvclive/metrics.json
+plots:
+- dvclive/plots/metrics:
+    x: step
